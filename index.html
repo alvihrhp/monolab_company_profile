@@ -13,43 +13,43 @@
   <body class="bg-gray-50 text-gray-800">
     <!-- Hero Section -->
     <section class="flex flex-col justify-center items-center min-h-screen px-4 md:px-[100px] bg-gray-50 relative">
-      <div class="flex flex-col md:flex-row items-center justify-center w-full max-w-4xl gap-8 md:gap-16">
+      <div class="flex flex-row items-center justify-center w-full max-w-4xl gap-8 md:gap-8 lg:gap-4">
         <!-- Logo Besar Kiri -->
         <div class="flex-shrink-0 flex items-center justify-center">
-          <svg width="120" height="120" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="28" cy="28" r="8" fill="#333"/>
-            <path d="M28 4v12M28 40v12M4 28h12M40 28h12M12.93 12.93l8.49 8.49M34.58 34.58l8.49 8.49M12.93 43.07l8.49-8.49M34.58 21.42l8.49-8.49" stroke="#333" stroke-width="3"/>
-          </svg>
+          <img src="assets/images/modulab-logo-white.png" alt="Modulab Logo" class="w-40 h-40 md:w-60 md:h-60 lg:w-60 lg:h-60" />
         </div>
         <!-- Judul Kanan -->
         <div class="flex flex-col items-start md:items-start w-full">
-          <h1 class="text-6xl sm:text-8xl md:text-7xl font-light leading-tight text-gray-800">
+          <h1 class="text-4xl md:text-6xl lg:text-6xl font-light leading-tight text-gray-800">
             Ordinary Objects<br>
             <span class="font-black text-gray-900">Made interactive</span>
           </h1>
           <div class="w-full max-w-xl h-5 rounded-full bg-gradient-to-r from-gray-300 to-gray-400 mt-8"></div>
         </div>
       </div>
-      <div class="absolute left-4 bottom-4 text-xs text-gray-500">Modulab Interactive</div>
     </section>
 
     <!-- Vision & Mission Section -->
-    <section class="px-4 md:px-[100px] py-12 bg-gray-900 text-white">
-      <div class="flex flex-col md:flex-row gap-8 md:gap-16">
-        <div class="flex-1">
+    <section class="px-0 md:px-0 py-12 bg-gray-900 text-white">
+      <div class="flex flex-col md:flex-row w-full">
+        <!-- Vision -->
+        <div class="flex-1 flex flex-col px-4 lg:px-[100px]">
           <h2 class="text-2xl sm:text-3xl font-light mb-2">Our <span class="font-black">Vision</span></h2>
           <p class="mb-2">Mengubah hubungan manusia dan ruang dengan menciptakan lingkungan yang terpadu, cerdas, dan interaktif melalui teknologi NFC dan QR terdepan.</p>
           <div class="w-full h-2 rounded-full bg-gradient-to-r from-gray-400 to-gray-600 mb-2"></div>
           <p>To revolutionize the way people connect with spaces by creating integrated, intelligent, and interactive environments through cutting-edge NFC and QR technologies.</p>
         </div>
-        <div class="flex-1">
-          <h2 class="text-2xl sm:text-3xl font-light mb-2">And <span class="font-black">Mission</span></h2>
-          <p class="mb-2">Modulab Interactive menghadirkan instalasi NFC dan QR yang cerdas dan intuitif untuk menghubungkan ruang fisik dengan experience digital. Kami bekerja sama dengan museum, ritel, penyelenggara event, kafe, dan restoran untuk membangun touchpoint interaktif yang melibatkan pengunjung, mempermudah akses informasi, dan menghidupkan suasana melalui teknologi seamless.</p>
-          <div class="w-full h-2 rounded-full bg-gradient-to-r from-gray-400 to-gray-600 mb-2"></div>
-          <p>Modulab Interactive delivers smart, intuitive NFC and QR installations that connect physical spaces to digital experiences. We collaborate with museums, retailers, event organizers, cafes, and restaurants to build interactive touchpoints that engage visitors, streamline access to information, and bring environments to life through seamless technology.</p>
+        <!-- Mission -->
+        <div class="flex-1 relative flex flex-col px-4 lg:px-[100px] min-h-[400px] overflow-hidden">
+          <div class="absolute inset-0 bg-gray-900 bg-opacity-80 z-10"></div>
+          <div class="relative z-20 w-full flex flex-col justify-center py-8 md:py-0">
+            <h2 class="text-2xl sm:text-3xl font-black mb-2">And Mission</h2>
+            <p class="mb-4">Modulab Interactive menghadirkan instalasi NFC dan QR yang cerdas dan intuitif untuk menghubungkan ruang fisik dengan experience digital. Kami bekerja sama dengan museum, ritel, penyelenggara event, kafe, dan restoran untuk membangun touchpoint interaktif yang melibatkan pengunjung, mempermudah akses informasi, dan menghidupkan suasana melalui teknologi seamless.</p>
+            <div class="w-full h-2 rounded-full bg-gradient-to-r from-gray-400 to-gray-600 mb-4"></div>
+            <p>Modulab Interactive delivers smart, intuitive NFC and QR installations that connect physical spaces to digital experiences. We collaborate with museums, retailers, event organizers, cafes, and restaurants to build interactive touchpoints that engage visitors, streamline access to information, and bring environments to life through seamless technology.</p>
+          </div>
         </div>
       </div>
-      <div class="absolute left-4 bottom-4 text-xs text-gray-400 hidden md:block">Modulab Interactive</div>
     </section>
 
    
@@ -79,52 +79,54 @@
           </div>
         </div>
       </div>
-      <div class="absolute left-4 bottom-4 text-xs text-gray-500 hidden md:block">Modulab Interactive</div>
     </section>
 
 
 
     <!-- Industries Section -->
     <section class="px-4 md:px-[100px] py-12 bg-white">
-      <div class="flex flex-col md:flex-row gap-0 md:gap-0 mt-0">
+      <div class="flex flex-col lg:flex-row gap-0 mt-0 w-full">
         <!-- Left: Title & Description -->
-        <div class="flex flex-col justify-between bg-white p-6 md:p-8 flex-1 min-w-[220px] md:min-w-[320px]">
+        <div class="flex flex-col justify-between bg-white p-6 md:p-8 w-full lg:w-1/3">
           <div>
-            <h2 class="text-2xl sm:text-4xl font-light leading-tight mb-0">Industries<br><span class="font-black">We Serve</span></h2>
-            <p class="mt-4 text-base md:text-lg">We bring digital interactivity to real-world spaces by integrating smart NFC and QR technology across key customer-facing industries—transforming everyday environments into engaging, connected experiences that enhance how people interact with brands, services, and content.</p>
+            <h2 class="text-2xl sm:text-4xl font-light leading-tight mb-0 text-left">Industries<br><span class="font-black">We Serve</span></h2>
+            <p class="mt-4 text-base md:text-lg text-left">We bring digital interactivity to real-world spaces by integrating smart NFC and QR technology across key customer-facing industries—transforming everyday environments into engaging, connected experiences that enhance how people interact with brands, services, and content.</p>
           </div>
-          <div class="mt-8 text-xs text-gray-500">Modulab Interactive</div>
+          <div class="mt-8 text-xs text-gray-500 text-left">Modulab Interactive</div>
         </div>
-        <!-- Museums and Galleries -->
-        <div class="relative flex flex-col justify-between p-6 md:p-8 flex-1 min-w-[220px] md:min-w-[240px] rounded-none overflow-hidden" style="background-image: url('./assets/images/card_background.jpg'); background-size: cover; background-position: center;">
-          <div class="absolute inset-0 bg-black bg-opacity-60 pointer-events-none z-0"></div>
-          <div class="relative z-10 text-white">
-            <h3 class="font-black text-lg mb-2">Museums<br>and Galleries</h3>
-            <p class="text-sm">Enhance exhibits with NFC/QR-triggered content, guided tours, and visitor engagement.</p>
+        <!-- Card Container -->
+        <div class="w-full lg:w-2/3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 lg:grid-rows-1 gap-0">
+          <!-- Museums and Galleries -->
+          <div class="relative flex flex-col justify-between p-6 md:p-8 h-full min-h-[250px] rounded-none overflow-hidden" style="background-image: url('./assets/images/card_background.jpg'); background-size: cover; background-position: center;">
+            <div class="absolute inset-0 bg-black bg-opacity-60 pointer-events-none z-0"></div>
+            <div class="relative z-10 text-white">
+              <h3 class="font-black text-lg mb-2">Museums<br>and Galleries</h3>
+              <p class="text-sm">Enhance exhibits with NFC/QR-triggered content, guided tours, and visitor engagement.</p>
+            </div>
           </div>
-        </div>
-        <!-- Retail and Showrooms -->
-        <div class="relative flex flex-col justify-between p-6 md:p-8 flex-1 min-w-[220px] md:min-w-[240px] rounded-none overflow-hidden" style="background-image: url('https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=400&q=80'); background-size: cover; background-position: center;">
-          <div class="absolute inset-0 bg-black bg-opacity-60 pointer-events-none z-0"></div>
-          <div class="relative z-10 text-white">
-            <h3 class="font-black text-lg mb-2">Retail<br>and Showrooms</h3>
-            <p class="text-sm">Add smart product tags for instant info, reviews, or promotions, right at the shelf.</p>
+          <!-- Retail and Showrooms -->
+          <div class="relative flex flex-col justify-between p-6 md:p-8 h-full min-h-[250px] rounded-none overflow-hidden" style="background-image: url('https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=400&q=80'); background-size: cover; background-position: center;">
+            <div class="absolute inset-0 bg-black bg-opacity-60 pointer-events-none z-0"></div>
+            <div class="relative z-10 text-white">
+              <h3 class="font-black text-lg mb-2">Retail<br>and Showrooms</h3>
+              <p class="text-sm">Add smart product tags for instant info, reviews, or promotions, right at the shelf.</p>
+            </div>
           </div>
-        </div>
-        <!-- Events and Activations -->
-        <div class="relative flex flex-col justify-between p-6 md:p-8 flex-1 min-w-[220px] md:min-w-[240px] rounded-none overflow-hidden" style="background-image: url('./assets/images/card2_background.jpg'); background-size: cover; background-position: center;">
-          <div class="absolute inset-0 bg-black bg-opacity-60 pointer-events-none z-0"></div>
-          <div class="relative z-10 text-white">
-            <h3 class="font-black text-lg mb-2">Events<br>and Activations</h3>
-            <p class="text-sm">Power check-ins, scavenger hunts, brand interactions, and live engagement through tap or scan.</p>
+          <!-- Events and Activations -->
+          <div class="relative flex flex-col justify-between p-6 md:p-8 h-full min-h-[250px] rounded-none overflow-hidden" style="background-image: url('./assets/images/card2_background.jpg'); background-size: cover; background-position: center;">
+            <div class="absolute inset-0 bg-black bg-opacity-60 pointer-events-none z-0"></div>
+            <div class="relative z-10 text-white">
+              <h3 class="font-black text-lg mb-2">Events<br>and Activations</h3>
+              <p class="text-sm">Power check-ins, scavenger hunts, brand interactions, and live engagement through tap or scan.</p>
+            </div>
           </div>
-        </div>
-        <!-- Cafes and Restaurants -->
-        <div class="relative flex flex-col justify-between p-6 md:p-8 flex-1 min-w-[220px] md:min-w-[240px] rounded-none overflow-hidden" style="background-image: url('https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=400&q=80'); background-size: cover; background-position: center;">
-          <div class="absolute inset-0 bg-black bg-opacity-60 pointer-events-none z-0"></div>
-          <div class="relative z-10 text-white">
-            <h3 class="font-black text-lg mb-2">Cafes<br>And Restaurants</h3>
-            <p class="text-sm">Streamline menus, ordering, and feedback with touch-free access to digital experiences.</p>
+          <!-- Cafes and Restaurants -->
+          <div class="relative flex flex-col justify-between p-6 md:p-8 h-full min-h-[250px] rounded-none overflow-hidden" style="background-image: url('https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=400&q=80'); background-size: cover; background-position: center;">
+            <div class="absolute inset-0 bg-black bg-opacity-60 pointer-events-none z-0"></div>
+            <div class="relative z-10 text-white">
+              <h3 class="font-black text-lg mb-2">Cafes<br>And Restaurants</h3>
+              <p class="text-sm">Streamline menus, ordering, and feedback with touch-free access to digital experiences.</p>
+            </div>
           </div>
         </div>
       </div>
@@ -169,7 +171,6 @@
           </div>
         </div>
       </div>
-      <div class="absolute left-4 bottom-4 text-xs text-gray-500 hidden md:block">Modulab Interactive</div>
     </section>
 
     <!-- Contact Section -->
@@ -189,7 +190,6 @@
           <span>www.modulab.com</span>
         </div>
       </div>
-      <div class="absolute left-4 bottom-4 text-xs text-gray-500 hidden md:block">Modulab Interactive</div>
     </section>
 
     <!-- WhatsApp Floating Button -->
